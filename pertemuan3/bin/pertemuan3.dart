@@ -39,6 +39,5 @@ void main() {
 
   Cat cat = Cat(name: "Catty", age: 2);
 
-  // print("It's my cat. The name is ${cat.name}.");
-  cat.getToKnow();
+  cat.describe();
 }

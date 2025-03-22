@@ -8,7 +8,7 @@ class Animal {
     print("Animal Saund");
   }
 
-  void getToKnow() {
+  void describe() {
     print("I had an animal. The name is $name and already $age y.o");
     sound();
   }
@@ -19,6 +19,6 @@ class Cat extends Animal {
 
   @override
   void sound() {
-    print('Meow');
+    print('It sound meow');
   }
 }
